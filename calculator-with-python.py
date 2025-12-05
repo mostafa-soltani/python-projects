@@ -43,7 +43,7 @@ def clear():
 #deleted the last char
 def backspace():
     global data
-    data = data[:-1]  # حذف آخر کاراکتر 
+    data = data[:-1]  # delete the last char
     label_for_shownum.config(text=data)
 
 
